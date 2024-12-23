@@ -1058,7 +1058,7 @@ function getConfig(userIDs, hostName, proxyIP) {
 	// Prepare output string for each userID
 	const sublink = `https://${hostName}/sub/${userIDArray[0]}?format=clash`
 	const subbestip = `https://${hostName}/bestip/${userIDArray[0]}`;
-	const clash_link = `https://url.v1.mk/sub?target=clash&url=${encodeURIComponent(`https://${hostName}/sub/${userIDArray[0]}?format=clash`)}&insert=false&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
+	const clash_link = `https://apiurl.v1.mk/sub?target=clash&url=${encodeURIComponent(`https://${hostName}/sub/${userIDArray[0]}?format=clash`)}&insert=false&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
 	// HTML Head with CSS and FontAwesome library
 	const htmlHead = `
   <head>
